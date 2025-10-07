@@ -11,10 +11,10 @@ import datetime
 # host, user, password, and database are the minimum required to connect to a MySQL database.
 
 DB_CONFIG = {
-    'host': '127.0.0.1',
-    'user': 'root',      
-    'password': 'shiva7781', 
-    'database': 'superstore_db'
+    'host': 'your server',
+    'user': 'user name',      
+    'password': 'your password ', 
+    'database': 'your database name'
 }
 
 '''Key Purpose host MySQL server address (localhost or IP) user Username to 
