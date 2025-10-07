@@ -82,8 +82,4 @@ SELECT 'Database setup complete!' AS Status;
 
 
 
-
-create user 'shiva'@'localhost' identified by 'shiva123';
-
-grant SELECT, INSERT, UPDATE, DELETE  on superstore_db.* to 'shiva'@'localhost'
-
+]
