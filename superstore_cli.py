@@ -22,7 +22,7 @@ login password Password for the userdatabase Name of the database to useport Por
 charset	Character set used for connection (optional)
 auth_plugin	Authentication plugin (optional, e.g., 'mysql_native_password')'''
 
-def clear_screen():
+def clear_screen():  # this function is used to clear the terminal screen the command is different for the windows ,linux and macos
     """Clears the terminal screen."""
     os.system('cls' if os.name == 'nt' else 'clear') # This line clears the terminal screen in a cross-platform way, using 'cls' for Windows and 'clear' for Linux/macOS, chosen based on os.name.
 
